@@ -111,7 +111,15 @@ main > section{
 
 /* responsive media quere */
 @media screen and (max-width: 576px) {
-    .navbar, .nav-link{
+    .navbar,
+    .nav-link,
+    .team{
         flex-direction: column;
+    }
+    .team-image-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .our-featuer{
+        margin-left: 20px;
     }
 }
